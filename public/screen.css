@@ -1,9 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
 html {
   height: 100%;
 }
-
 body {
-  margin: 0;
+  margin: 0 50px;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: rgb(0, 138, 161);
+  font-family: 'PT Serif', serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  }
+main {
+  background-color: rgb(221, 242, 243);
+}
+div.main {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: underline;
+  padding: 10px
+}
+nav li {
+  padding: 0 20px
+
+}
+h1, h2, h3 {
+  color: rgb(65, 84, 103);
+}
+div {
+  padding: 10px;
+}
+.top {
+  background-color: rgb(0, 191, 213);
+  color: white;
+
+}
+.bottom {
+  background-color: rgb(211, 211, 211);
+}
+.KotD {
+  border-color: rgb(0, 138, 161);
+  border-style: solid;
 }
