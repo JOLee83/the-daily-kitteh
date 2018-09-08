@@ -3,9 +3,7 @@ html {
   height: 100%;
 }
 body {
-  margin: 0 50px;
-  min-height: 100%;
-  font: 16px / 1 sans-serif;
+
   background-color: rgb(0, 138, 161);
   font-family: 'PT Serif', serif;
 }
@@ -14,8 +12,20 @@ header {
   justify-content: center;
   align-content: center;
   }
+
+footer {
+  margin-bottom: 0;
+}
 main {
   background-color: rgb(221, 242, 243);
+  max-width: 900px;
+  margin: 0 auto
+  }
+a {
+  color: inherit;
+}
+a:visted {
+  color: inherit;
 }
 div.main {
   display: flex;
@@ -26,9 +36,10 @@ nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   text-decoration: underline;
-  padding: 10px
+  padding: 10px;
 }
 nav li {
   padding: 0 20px
@@ -51,4 +62,8 @@ div {
 .KotD {
   border-color: rgb(0, 138, 161);
   border-style: solid;
+}
+.img {
+display: flex;
+justify-content: center;
 }
