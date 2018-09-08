@@ -30,6 +30,7 @@ a:visted {
 div.main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
 }
 nav ul {
@@ -62,8 +63,13 @@ div {
 .KotD {
   border-color: rgb(0, 138, 161);
   border-style: solid;
+  margin-left: 20px;
 }
 .img {
 display: flex;
 justify-content: center;
+}
+div.p {
+  max-width: 550px;
+  padding: 0 20px;
 }
